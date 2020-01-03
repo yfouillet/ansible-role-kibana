@@ -6,12 +6,11 @@ galaxy_info:
 
   issue_tracker_url: https://github.com/yfouillet/ansible-role-kibana
 
-
   license: license (MIT)
 
   min_ansible_version: 1.2
   # Plateforms list here : https://galaxy.ansible.com/api/v1/platforms/
-  
+
   platforms:
     - name: EL
       versions:
