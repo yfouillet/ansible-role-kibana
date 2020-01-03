@@ -8,7 +8,7 @@ env:
     - ANSILE_ROLE_NAME: kibana
   jobs:
    - MOLECULE_ENV_TEST: centos7
-  
+
 before_install:
   - sudo apt-get -qq update
 install:
