@@ -9,7 +9,7 @@ lint:
     config-file: molecule/default/yaml-lint.yml
 platforms:
   - name: instance
-    image: centos:7
+    image: "yfouillet/docker-centos7-ansible:matest"
 provisioner:
   name: ansible
   lint:
