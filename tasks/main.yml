@@ -1,0 +1,5 @@
+---
+    - name: Kibana Installation.
+      package:
+        name: "kibana"
+        state: "{{ kibana_package_state }}"
