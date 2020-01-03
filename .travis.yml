@@ -19,7 +19,7 @@ before_install:
 
 install:
   - pip install molecule docker
-# - pip install required driver (e.g. docker, python-vagrant, shade, boto)
+# - pip install required driver (e.g. docker, python-vagrant, shade, boto etc.)
 
 script:
   - molecule test
