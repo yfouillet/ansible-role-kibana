@@ -1,0 +1,5 @@
+---
+- name: Add official Elasticsearch GPG key.
+  rpm_key:
+    key: https://artifacts.elastic.co/GPG-KEY-elasticsearch
+    state: present

@@ -1,3 +1,6 @@
 ---
 ## For update kibana, use "latest", for delete use "absent"
 kibana_package_state: present
+
+## Select major version of kibana package, with "7.x" format
+kibana_version: "7.x"
