@@ -1,7 +1,7 @@
 ---
 # This key selects the language support used for the build.
 language: python
-# Travis CI environments do not start services by default, 
+# Travis CI environments do not start services by default,
 # to make more RAM available to build scripts.
 services:
   - docker
