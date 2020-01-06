@@ -1,6 +1,29 @@
 ---
+## Select major version of kibana package, with "7.x" format
+kibana_version: "7.x"
+
 ## For update kibana, use "latest", for delete use "absent"
 kibana_package_state: present
 
-## Select major version of kibana package, with "7.x" format
-kibana_version: "7.x"
+## At least one of state and enabled are required, reloaded, restarted, started, stopped
+kibana_service_enabled: true
+kibana_service_state: started
+
+## It's possible to change standard configuration directory
+kibana_config_template: kibana.yml.j2
+kibana_config_file_path: /etc/kibana/kibana.yml
+
+## Standard network configuration is "localhost",  "0.0.0.0" allow all network interfaces
+kibana_server_port: 5601
+kibana_server_host: "0.0.0.0"
+
+kibana_elasticsearch_url: "http://localhost:9200"
+kibana_elasticsearch_username: ""
+kibana_elasticsearch_password: ""
+
+## It's necessary for HTTPS configuration
+kibana_ssl_enabled : false
+kibana_ssl_certificate: "/path/to/your/server.crt"
+kibana_ssl_key: "/path/to/your/server.key"
+
+## It's necessary elasticsearch certificate authentification
