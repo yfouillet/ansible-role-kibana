@@ -2,7 +2,7 @@
 - include: setup-RedHat.yml
   when: ansible_os_family == 'RedHat'
 
-- name: Kibana Installation.
+- name: Kibana installation.
   package:
     name: "kibana"
     state: "{{ kibana_package_state }}"
