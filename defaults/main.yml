@@ -25,5 +25,4 @@ kibana_elasticsearch_password: ""
 kibana_ssl_enabled : false
 kibana_ssl_certificate: "/path/to/your/server.crt"
 kibana_ssl_key: "/path/to/your/server.key"
-
 ## It's necessary elasticsearch certificate authentification
