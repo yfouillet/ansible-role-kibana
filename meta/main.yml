@@ -1,7 +1,7 @@
 ---
 galaxy_info:
-  author: your yfouillet
-  description: your description
+  author: Yoann Fouillet
+  description: Ansible role for Kibana
 #  company: your company (optional)
 
   issue_tracker_url: https://github.com/yfouillet/ansible-role-kibana
